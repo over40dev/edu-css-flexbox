@@ -40,3 +40,12 @@
 }
 
 /* We start writing out flexbox here. The above is just page setup */
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  min-height: 100vh;
+  /* flex-direction: row;  */
+  /* flex-direction: row-reverse; */
+  flex-direction: column;
+  /* flex-direction: column-reverse; */
+}
