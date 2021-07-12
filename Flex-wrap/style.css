@@ -17,3 +17,21 @@
 .box8 { background:#bdc3c7;}
 .box9 { background:#2ecc71;}
 .box10 { background:#16a085;}
+
+.container {
+  display: flex;
+  border: 10px solid goldenrod;
+  height: 100vh;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* flex-direction: column; */
+  /* flex-wrap: wrap-reverse; */
+}
+
+.box {
+  width: 33.33333%;
+  padding: 10px;
+  /*margin not part of box model so don't fit*/
+  /* margin: 10px;  */
+}
+
